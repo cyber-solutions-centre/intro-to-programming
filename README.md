@@ -9,7 +9,7 @@ At the end of the session you will be able to:
 
 ## What is Programming?
 
-Programming is a key part of software development. But it not the only part! We will spend a considerable amount of time on this course thinking about programming. But it is important to remember that there is more to software development than programming (for example, we have already covered version control, and we will explore other aspects of software development in later weeks).
+Programming is a key part of software development. But it not the only part! We will spend a considerable amount of time on this course learning how to write programs. But it is important to remember that there is more to software development than programming (for example, we have already covered version control, and we will explore other aspects of software development in later weeks).
 
 Equally, programming is valuable skill beyond software development. Take a look at the table below to see how programming is related to different roles in the UK Cyber Security Councils Careers Framework.
 
