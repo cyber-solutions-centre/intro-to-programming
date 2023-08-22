@@ -4,6 +4,10 @@ In this activity we are going to write our very first program using the C# progr
 
 1. Clone this repository using GitHub Desktop.
 
+![Image showing a green button that reads code.](../../images/green-code-button.PNG)
+
+![Image showing a dialog with an Open with GitHub Desktop option.](../../images/clone-modal-window.PNG)
+
 2. Open the local repository using Visual Studio Code.
 
 3. Navigate to **activities/1-hello-c-sharp/src** using the explorer and open the **Program.cs** file.
