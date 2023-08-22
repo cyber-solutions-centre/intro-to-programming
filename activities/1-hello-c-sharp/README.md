@@ -1,6 +1,8 @@
 # Learning activity #1: Hello C#
 
-In this activity we are going to write our very first program using the C# programming language.
+In this activity we are going to write our very first program using the C# programming language. Follow the steps below to complete the activity and complete the extension if you have time.
+
+## 👣 Steps
 
 1. Clone this repository using GitHub Desktop.
 
@@ -26,8 +28,8 @@ In this activity we are going to write our very first program using the C# progr
 
 7. Save your change and run the program again. Is the output of the program what you were expecting?
 
-Congratulations! You have just done your first bit of programming. Return to the [main README]() where we will dissect this program so that we fully understand it.
+🎉 Congratulations! You have just done your first bit of programming. If you have time have a go at the extension, otherwise return to the [main README](https://github.com/cyber-solutions-centre/intro-to-programming/tree/main) where we will dissect this program so that we fully understand it.
 
-## Extension
+## 🔌 Extension
 
 Now that you have made a change to the program and confirmed that it works, commit the change to version control. This is a common workflow for Software Engineers.
