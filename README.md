@@ -91,7 +91,7 @@ The second line is the one resposible for the output we saw in the activity. The
 
 Computers work with data. In the previous activity, without the data `"Hello, World!"` we would have had nothing to print and our program would have been useless.
 
-For a computer to work with data nit needs to know what type of data it is dealing with. Data will need to be handled in different ways depending on whether it is **numberic**, **alphanumeric**, or **logical**.
+For a computer to work with data it needs to know what type of data it is dealing with. Data will need to be handled in different ways depending on whether it is **numberic**, **alphanumeric**, or **logical**.
 
 ### Numeric types
 
@@ -103,7 +103,9 @@ Numeric data is useful for calculations. In C#, the most used numeric types are:
 
 ### Alphanumeric types
 
+Alphanumeric data is useful because we don't always want to be working with numbers! For example, when a user enters a password, they will enter a string of letters, numbers, and other symbols for a computer program to check.
 
+In C#, the most used alphanumeric type is the **string** type. We have already seen an example of a string: `"Hello, World!"`. Another example is: `"A string with letters, but also numbers: 1, 2, 3, 4, and 5"`. Notice how all the examples use `""` to enclose the text.
 
 ### Logical types
 
