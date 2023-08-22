@@ -87,6 +87,26 @@ The first line of this part begins with `//`. This indicates that the line is a 
 
 The second line is the one resposible for the output we saw in the activity. The `Console` part of this line is another class. It contains methods that we can use to interact with the console/terminal (again, more on classes and methods next week). The `.` is an operator that indicates we are going inside the `Console` class (to access a method that it contains). In this case, the method being accessed is the `WriteLine` method, which can be used to write a **string** to the console/terminal. A string is a data type that can be used to represent text. In C#, strings are usually enclosed in quotes: `"like this!"`. In our program code, the string `"Hello, World!"` is being passed as an argument into the `WriteLine` method and ultimately printed to the terminal when the program runs.
 
+## Data Types
+
+Computers work with data. In the previous activity, without the data `"Hello, World!"` we would have had nothing to print and our program would have been useless.
+
+For a computer to work with data nit needs to know what type of data it is dealing with. Data will need to be handled in different ways depending on whether it is **numberic**, **alphanumeric**, or **logical**.
+
+### Numeric types
+
+Numeric data is useful for calculations. In C#, the most used numeric types are:
+
+- **int**. This type is suitable for positive or negative whole numbers, like: 2, 2097, and -5.
+- **float**. This type is suitable for storing real numbers, like: 0.23, 1.5, 2097.01. It can store these kinds of numbers to a medium precision and is good for general use.
+- **double**. This type is suitable for storing real numbers, like: 0.23, 1.5, 2097.01. It can store these kinds of numbers to a higher precision but this comes at a cost in terms of execution speed. This type is therefore good for scientific use.
+
+### Alphanumeric types
+
+
+
+### Logical types
+
 
 
 
