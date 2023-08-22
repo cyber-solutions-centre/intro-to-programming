@@ -39,7 +39,55 @@ In this course, we are going to focus on the C# programming language. C# is a ve
 
 ## Hello C#
 
-To start learning C#, we are going to create our very first program in [learning activity #1: Hello C#](https://github.com/cyber-solutions-centre/intro-to-programming/tree/main/activities/1-hello-c-sharp).
+To start learning C#, we are going to create our very first program in [learning activity #1: Hello C#](https://github.com/cyber-solutions-centre/intro-to-programming/tree/main/activities/1-hello-c-sharp). Complete the learning activity before continuing here, where we will dissect the program code.
+
+### Program.cs
+
+In the previous activity, we ran the following program:
+
+```c#
+class Program
+{
+    static void Main()
+    {
+        // Change the below line so that the program greets C# instead of the world (E.g., Hello, C#!)
+        Console.WriteLine("Hello, World!");
+    }
+}
+```
+
+To fully understand this program, we will now break it down and examine parts of the code in further detail. Starting with:
+
+```c#
+class Program
+{
+    ...
+}
+```
+
+In this part of the code the `class` keyword is being used to define a **class** named `Program`. The code between the `{}` constitutes the class. In C#, programs typically start executing instructions from a `Main` **method** inside a `Program` class:
+
+```c#
+static void Main()
+{
+    ...
+}
+```
+
+The `void` keyword indicates that we are not expecting the `Main` method to return any data. The empty `()` means that the method has no paramters, which means users of the method are unable to feed arguments/data into the method.
+
+Don't worry about these first parts of the code too much for now! We will explore classes and methods in further detail next week. This week, we will be working inside the `Main` class, which currently contains:
+
+```c#
+// Change the below line so that the program greets C# instead of the world (E.g., Hello, C#!)
+Console.WriteLine("Hello, World!");
+```
+
+The first line of this part begins with `//`. This indicates that the line is a **comment** and can be ignored by the program. Comments are for us, the people working on the program code.
+
+The second line is the one resposible for the output we saw in the activity. The `Console` part of this line is another class. It contains methods that we can use to interact with the console/terminal (again, more on classes and methods next week). The `.` is an operator that indicates we are going inside the `Console` class (to access a method that it contains). In this case, the method being accessed is the `WriteLine` method, which can be used to write a **string** to the console/terminal. A string is a data type that can be used to represent text. In C#, strings are usually enclosed in quotes: `"like this!"`. In our program code, the string `"Hello, World!"` is being passed as an argument into the `WriteLine` method and ultimately printed to the terminal when the program runs.
+
+
 
 
 
