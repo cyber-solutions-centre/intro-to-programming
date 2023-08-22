@@ -74,7 +74,7 @@ static void Main()
 }
 ```
 
-The `void` keyword indicates that we are not expecting the `Main` method to return any data. The empty `()` means that the method has no paramters, which means users of the method are unable to feed arguments/data into the method.
+The `void` keyword indicates the absence of a data type and means that we are not expecting the `Main` method to return any data. The empty `()` means that the method has no paramters, which means users of the method are unable to feed arguments/data into the method.
 
 Don't worry about these first parts of the code too much for now! We will explore classes and methods in further detail next week. This week, we will be working inside the `Main` class, which currently contains:
 
