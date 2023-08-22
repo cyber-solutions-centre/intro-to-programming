@@ -39,6 +39,8 @@ In this course, we are going to focus on the C# programming language. C# is a ve
 
 ## Hello C#
 
+To start learning C#, we are going to create our very first program in [learning activity #1: Hello C#]().
+
 
 
 
