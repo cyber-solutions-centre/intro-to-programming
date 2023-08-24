@@ -111,6 +111,21 @@ In C#, the most used alphanumeric type is the **string** type. We have already s
 
 ### Logical types
 
+Logical or boolean (**bool**) types can be in one of two states and are useful for implementing decison making logic. In C#, these states are `True` and `False`.
+
+## Variables
+
+Computers store data in **variables**. We can give variables names and assign data of a given type to them. Like this:
+
+```c#
+int myInt = 2097;
+```
+Notice how in the above code we:
+
+- Specify the type of data that will be stored in the variable, using the keyword `int` and give the variable a name (`myInt`) so that we can identify it. This is called the variable **declaration**.
+- And use the equals operators to store data in the variable: `= 2097`. This is known as **assigment**.
+
+Think of a variable as a box with a label on it. We can change what we store in the box (i.e., the value of the variable), but there are limits on what we can store on the box also (i.e., the value must be a good fit and the correct type).
 
 
 
