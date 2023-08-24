@@ -98,8 +98,10 @@ For a computer to work with data it needs to know what type of data it is dealin
 Numeric data is useful for calculations. In C#, the most used numeric types are:
 
 - **int**. This type is suitable for positive or negative whole numbers, like: 2, 2097, and -5.
-- **float**. This type is suitable for storing real numbers, like: 0.23, 1.5, 2097.01. It can store these kinds of numbers to a medium precision and is good for general use.
-- **double**. This type is suitable for storing real numbers, like: 0.23, 1.5, 2097.01. It can store these kinds of numbers to a higher precision but this comes at a cost in terms of execution speed. This type is therefore good for scientific use.
+- **double**. This type is suitable for storing real numbers, like: 0.23, 1.5, 2097.01.
+- **decimal**. This type is suitable for storing real numbers, like: 0.23, 1.5, 2097.01. It offers a higher degree of precision than double and is useful and is most commonly used when handling financial data (E.g., an interest rate of 2.625%).
+
+If you're interest in learning more about the different numeric types in C#, this page provides further detail: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types.
 
 ### Alphanumeric types
 
