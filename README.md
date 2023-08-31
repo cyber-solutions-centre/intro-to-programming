@@ -194,5 +194,25 @@ i--;
 Console.WriteLine(i); // This will output 5.
 ```
 
+### Comparison operators (for numeric types)
+
+Comparison operators can be applied to numeric types, including the `int`, `double`, and `decimal` types we have already covered.
+
+The main comparison operators for numeric types are as follows:
+
+- `<`: This is the less than operator. It returns the `bool` value `true` if the value on the left is less than the value on the right, otherwise it returns `false`.
+- `>`: This is the greater than operator. It returns the `bool` value `true` if the value on the left is greater than the value on the right, otherwise it returns `false`.
+- `<=`: This is the less than or equal to operator. It returns the `bool` value `true` if the value on the left is less than or equal to the value on the right, otherwise it returns `false`.
+- `>=`: This is the greater than or equal to operator. It returns the `bool` value `true` if the value on the left is greater than or equal to the value on the right, otherwise it returns `false`.
+
+Complete [learning activity #5: Comparison Operators.]() to build and demonstrate your understanding of comparison operators.
+
+The `==` and `!=` operators can also be used to compare numeric types, but more on these in the next section...
+
+### Equality operators
+
+### String interpolation
+
+
 
 
