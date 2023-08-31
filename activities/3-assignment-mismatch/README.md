@@ -68,40 +68,40 @@ Follow the steps below to complete the activity and complete the extension if yo
 
     ```c#
     class Program
-{
-    static void Main()
     {
-        // Declaration
-        int myInt;
-        double myDouble;
-        decimal myDecimal;
-        string myString;
-        bool myBool;
+        static void Main()
+        {
+            // Declaration
+            int myInt;
+            double myDouble;
+            decimal myDecimal;
+            string myString;
+            bool myBool;
 
-        // Assignment
-        myInt = 27;
-        myDouble = 27.53;
-        myDecimal = 23.0M;
-        myString = "This is a string.";
-        myBool = false;
+            // Assignment
+            myInt = 27;
+            myDouble = 27.53;
+            myDecimal = 23.0M;
+            myString = "This is a string.";
+            myBool = false;
 
-        // Assignment (again)
-        // NOTE: These are all mismatched and will errors! Try entering dotnet run into the terminal to see them for yourself.
-        // TODO: Have a go at fixing these assignment statements by assigning the new values to the appropriate variables.
-        myInt = 99;
-        myDouble = 100.123;
-        myDecimal = 10.1M;
-        myString = "This is another string.";
-        myBool = true;
+            // Assignment (again)
+            // NOTE: These are all mismatched and will errors! Try entering dotnet run into the terminal to see them for yourself.
+            // TODO: Have a go at fixing these assignment statements by assigning the new values to the appropriate variables.
+            myInt = 99;
+            myDouble = 100.123;
+            myDecimal = 10.1M;
+            myString = "This is another string.";
+            myBool = true;
         
-        // Output to terminal
-        Console.WriteLine(myInt);
-        Console.WriteLine(myDouble);
-        Console.WriteLine(myDecimal);
-        Console.WriteLine(myString);
-        Console.WriteLine(myBool);
+            // Output to terminal
+            Console.WriteLine(myInt);
+            Console.WriteLine(myDouble);
+            Console.WriteLine(myDecimal);
+            Console.WriteLine(myString);
+            Console.WriteLine(myBool);
+        }
     }
-}
     ```
 
     ---
