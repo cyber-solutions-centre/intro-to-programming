@@ -139,6 +139,41 @@ Notice how in the above code we do not declare the variable using the `int` keyw
 
 Complete [learning activity #3: Assignment Mismatch]() to build your understanding of variables further and conclude this section.
 
+## Operators
+
+Being able to store data is great. But more often than not we want to be able to do things to the data. This is where **operators** come in.
+
+C# has many operators that are supported by the built-in types we have just covered. In this section, we will look at the most important operators.
+
+Note: The term **operand** is used when talking about the data or variable that an operator is acting on. So watch out for it in the following sections.
+
+### Arithmetic operators (for numeric types)
+
+Arithmetic operators can be applied to numeric types, including the `int`, `double`, and `decimal` types we have already covered.
+
+You're probably somewhat familiar with the main arithmetic operators:
+
+- `+`: This is the operator for addition.
+- `-`: This is the operator for subtraction.
+- `*`: This is the operator for multiplication.
+- `/`: This is the operator for division.
+- `%`: This is the remainder or modulo operator.
+
+All of these operators are binary operators, which means they act on two operands. For example:
+
+```c#
+int x = 100;
+int y = 50;
+
+Console.WriteLine(x + y); // This will output 150.
+Console.WriteLine(x - y); // This will output 50.
+Console.WriteLine(x * y); // this will output 5000.
+Console.WriteLine(x / y); // This will output 2.
+Console.WriteLine(x % y); // This will output 0.
+```
+
+Experiment with this code yourself to confirm your understanding of the operators in [learning activity #4: Binary Arithmetic Operators.]().
+
 
 
 
