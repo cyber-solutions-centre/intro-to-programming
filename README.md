@@ -174,7 +174,25 @@ Console.WriteLine(x % y); // This will output 0.
 
 Experiment with this code yourself to confirm your understanding of the operators in [learning activity #4: Binary Arithmetic Operators.](https://github.com/cyber-solutions-centre/intro-to-programming/tree/main/activities/4-binary-arithmetic-operators).
 
+Before moving on it is also worth noting that there are some unary (meaning they act on one operand) arithmetic operators that you're likely to come across:
 
+- `++`: This is the increment operator. It can be used to increase a numeric value by 1.
+- `--`: This is the decrement operator. It can be used to decrease a numeric value by 1.
+
+For example:
+
+```c#
+// Declare and assign
+int i = 5;
+		
+// Increment (and output)
+i++;
+Console.WriteLine(i); // This will output 6.
+		
+// Decrement (and output)
+i--;
+Console.WriteLine(i); // This will output 5.
+```
 
 
 
