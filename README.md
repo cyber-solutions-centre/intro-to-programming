@@ -137,7 +137,7 @@ myInt = 99;
 
 Notice how in the above code we do not declare the variable using the `int` keyword. This is because we have already done the declaration part, so the computer knows the type of the variable. We simply do the assignment part again to store a new value in the variable.
 
-Complete [learning activity #3: Assignment Mismatch]() to build your understanding of variables further and conclude this section.
+Complete [learning activity #3: Assignment Mismatch](https://github.com/cyber-solutions-centre/intro-to-programming/blob/main/activities/3-assignment-mismatch/README.md) to build your understanding of variables further and conclude this section.
 
 
 
