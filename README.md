@@ -172,7 +172,7 @@ Console.WriteLine(x / y); // This will output 2.
 Console.WriteLine(x % y); // This will output 0.
 ```
 
-Experiment with this code yourself to confirm your understanding of the operators in [learning activity #4: Binary Arithmetic Operators.]().
+Experiment with this code yourself to confirm your understanding of the operators in [learning activity #4: Binary Arithmetic Operators.](https://github.com/cyber-solutions-centre/intro-to-programming/tree/main/activities/4-binary-arithmetic-operators).
 
 
 
