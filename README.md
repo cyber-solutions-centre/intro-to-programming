@@ -205,11 +205,19 @@ The main comparison operators for numeric types are as follows:
 - `<=`: This is the less than or equal to operator. It returns the `bool` value `true` if the value on the left is less than or equal to the value on the right, otherwise it returns `false`.
 - `>=`: This is the greater than or equal to operator. It returns the `bool` value `true` if the value on the left is greater than or equal to the value on the right, otherwise it returns `false`.
 
-Complete [learning activity #5: Comparison Operators.]() to build and demonstrate your understanding of comparison operators.
+Complete [learning activity #5: Comparison Operators]() to build and demonstrate your understanding of comparison operators.
 
 The `==` and `!=` operators can also be used to compare numeric types, but more on these in the next section...
 
 ### Equality operators
+
+The `==` and `!=` operators can also be used to compare numeric types, but also the other types we have covered: `string` and `bool`.
+
+The `==` operator checks for equality, returning `true` when the values to its left and right are equivalent (E.g., `1 == 1`), and returing `false` otherwise (E.g., 1 == 2).
+
+The `!=` operator checks for a lack of equality, returning `true` when the values to its left and right are not equivalent (E.g., `3 != 4`), and returing `false` otherwise (E.g., 3 != 3).
+
+Complete [learning activity #6: Equality Operators]() to demonstrate your understanding of these new operators see how they owork when applied to different types.
 
 ### String interpolation
 
