@@ -1,0 +1,4 @@
+C:\Users\Staff\Documents\GitHub\intro-to-programming\activities\3-assignment-mismatch\obj\Debug\net7.0\3-assignment-mismatch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Staff\Documents\GitHub\intro-to-programming\activities\3-assignment-mismatch\obj\Debug\net7.0\3-assignment-mismatch.AssemblyInfoInputs.cache
+C:\Users\Staff\Documents\GitHub\intro-to-programming\activities\3-assignment-mismatch\obj\Debug\net7.0\3-assignment-mismatch.AssemblyInfo.cs
+C:\Users\Staff\Documents\GitHub\intro-to-programming\activities\3-assignment-mismatch\obj\Debug\net7.0\3-assignment-mismatch.csproj.CoreCompileInputs.cache
