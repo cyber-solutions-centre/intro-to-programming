@@ -125,7 +125,19 @@ Notice how in the above code we:
 - Specify the type of data that will be stored in the variable, using the keyword `int` and give the variable a name (`myInt`) so that we can identify it. This is called the variable **declaration**.
 - And use the equals operators to store data in the variable: `= 2097`. This is known as **assigment**.
 
-Think of a variable as a box with a label on it. We can change what we store in the box (i.e., the value of the variable), but there are limits on what we can store on the box also (i.e., the value must be a good fit and the correct type).
+Before continuing, make sure your understand the essential data types explained above and practice using variables in [learning activity #2: Data Types & Variables](https://github.com/cyber-solutions-centre/intro-to-programming/tree/main/activities/2-types-and-variables).
+
+A variable is a lot like a box with a label on it. We can change what we store in the box (i.e., the value of the variable), but there are limits on what we can store on the box also (i.e., the value must be a good fit and the correct type).
+
+We can change the value of the `myInt` variable like this:
+
+```c#
+myInt = 99;
+```
+
+Notice how in the above code we do not declare the variable using the `int` keyword. This is because we have already done the declaration part, so the computer knows the type of the variable. We simply do the assignment part again to store a new value in the variable.
+
+Complete [learning activity #3: Assignment Mismatch]() to build your understanding of variables further and conclude this section.
 
 
 
