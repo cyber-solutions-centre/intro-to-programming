@@ -106,3 +106,9 @@ Follow the steps below to complete the activity and complete the extension if yo
     ---
 
     </details>
+
+🎉 Excellent! You have just assigned your first variables in C#. This is a foundational part of programming and it is important to make sure you understand what is happening here. So, if you have time, have a go at the extension below.
+
+## 🔌 Extension
+
+Make some of your own variables and print them to the terminal like we have in this exercise.
