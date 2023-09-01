@@ -23,11 +23,11 @@
 
         Console.WriteLine($"{aString} does not equal {bString}: {aString != bString}");
 
-        Console.WriteLine($"{aString} is equivalent to {bString}: {aString == bString}"); // TODO: Complete this statement.
+        Console.WriteLine($"{aString} is equivalent to {bString}: "); // TODO: Complete this statement.
 
-        Console.WriteLine($"{aBool} is equivalent to {bBool}: {aBool == bBool}"); // TODO: Complete this statement.
+        Console.WriteLine($"{aBool} is equivalent to {bBool}: "); // TODO: Complete this statement.
 
-        Console.WriteLine($"{aNumber} is equivalent to {bNumber} and {cNumber}: {aNumber == bNumber && bNumber == cNumber}"); // TODO: Complete this statement.
+        Console.WriteLine($"{aNumber} is equivalent to {bNumber} and {cNumber}: "); // TODO: Complete this statement.
     }
 }
 
