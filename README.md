@@ -210,17 +210,22 @@ The main comparison operators for numeric types are as follows:
 
 Complete [learning activity #5: Comparison Operators]() to build and demonstrate your understanding of comparison operators.
 
-The `==` and `!=` operators can also be used to compare numeric types, but more on these in the next section...
+The `==` and `!=` operators can also be used to compare numeric types, but more on these shortly...
 
-### Equality operators
+### Logical operators
 
-The `==` and `!=` operators can also be used to compare numeric types, but also the other types we have covered: `string` and `bool`.
+Logical operators can be applied to the `bool` type and expressions that result a `bool` type (E.g., `x < y`).
 
-The `==` operator checks for equality, returning `true` when the values to its left and right are equivalent (E.g., `1 == 1`), and returing `false` otherwise (E.g., 1 == 2).
+The main logical operators are as follows:
 
-The `!=` operator checks for a lack of equality, returning `true` when the values to its left and right are not equivalent (E.g., `3 != 4`), and returing `false` otherwise (E.g., 3 != 3).
+- `!`: This unary operator (NOT) computes the logical negation (or opposite) of an operand. If `bool isRunning = true`, then `!isRunning` will result in `false`.
+- `&&`: This binary operator (AND) will return `true` only if both operands are `true`, otherwise it will return `false`.
+- `||`: This binary operator (OR) will return `true` if either of the operands are `true`, only if both operands are `false` will it an expression evaluate to `false`.
+- `^`: This binary operator (XOR) will return `true` if only one the operands is `true`, otherwise it will return `false`.
 
-Complete [learning activity #6: Equality Operators]() to demonstrate your understanding of these new operators see how they work when applied to different types.
+You might also come across `&` and `|` operators. These work in much the same way as the corresponding `&&` and `||` operators. The difference is that the `&&` and `||` operators only check the first value if necessary (E.g., if `x && y` and `x = false` there is no need to check the value of `y`). This is known as short circuiting and is generally advisable as it improves the efficiency of code.
+
+Complete [learning activity #6: Logical Operators]() to build and demonstrate your understanding of logical operators.
 
 ### String interpolation
 
@@ -242,9 +247,17 @@ Breaking this down:
 - `{b}`: Adds the value of a variable, `b`, into the interpolated string.
 - `{0.5 * a * b}`: Adds the result of the expression into the interpolated string. The key point to note here is that the expression is evaluated before being included in the result string.
 
-Complete [learning activity #7: String Interpolation]() to demonstrate your understanding of the `$` operator and string interpolation.
+Complete [learning activity #6: String Interpolation]() to demonstrate your understanding of the `$` operator and string interpolation.
 
+### Equality operators
 
+The `==` and `!=` operators can be used to compare numeric types, but also the other types we have covered: `string` and `bool`.
+
+The `==` operator checks for equality, returning `true` when the values to its left and right are equivalent (E.g., `1 == 1`), and returing `false` otherwise (E.g., 1 == 2).
+
+The `!=` operator checks for a lack of equality, returning `true` when the values to its left and right are not equivalent (E.g., `3 != 4`), and returing `false` otherwise (E.g., 3 != 3).
+
+Complete [learning activity #7: Equality Operators]() to demonstrate your understanding of these new operators see how they work when applied to different types.
 
 
 
