@@ -139,13 +139,16 @@ Notice how in the above code we do not declare the variable using the `int` keyw
 
 Complete [learning activity #3: Assignment Mismatch](https://github.com/cyber-solutions-centre/intro-to-programming/blob/main/activities/3-assignment-mismatch/README.md) to build your understanding of variables further and conclude this section.
 
-## Operators
+## Operators and expressions
 
 Being able to store data is great. But more often than not we want to be able to do things to the data. This is where **operators** come in.
 
 C# has many operators that are supported by the built-in types we have just covered. In this section, we will look at the most important operators.
 
-Note: The term **operand** is used when talking about the data or variable that an operator is acting on. So watch out for it in the following sections.
+Note:
+
+- The term **operand** is used when talking about the data or variable that an operator is acting on. So watch out for it in the following sections.
+- The term **expression** refers to a sequence of operators and operands. In short, an expression does something! Exactly what depends on the operators and operands that make it up.
 
 ### Arithmetic operators (for numeric types)
 
@@ -217,9 +220,31 @@ The `==` operator checks for equality, returning `true` when the values to its l
 
 The `!=` operator checks for a lack of equality, returning `true` when the values to its left and right are not equivalent (E.g., `3 != 4`), and returing `false` otherwise (E.g., 3 != 3).
 
-Complete [learning activity #6: Equality Operators]() to demonstrate your understanding of these new operators see how they owork when applied to different types.
+Complete [learning activity #6: Equality Operators]() to demonstrate your understanding of these new operators see how they work when applied to different types.
 
 ### String interpolation
+
+The `$` operator enables string interpolation, which is simply a way of incorporating values from variables of expressions into a `string`. Take a look at this example:
+
+```c#
+double a = 3;
+double b = 4;
+
+// The following will print the result of an interpolated string:
+// Area of the right angle triangle with legs of 3 and 4 is 6.
+Console.WriteLine($"Area of the right angle triangle with legs of {a} and {b} is {0.5 * a * b}");
+```
+
+Breaking this down:
+
+- `$`: Modifies the behaviour of the string by enabling interpolation.
+- `{a}`: Adds the value of a variable, `a`, into the interpolated string.
+- `{b}`: Adds the value of a variable, `b`, into the interpolated string.
+- `{0.5 * a * b}`: Adds the result of the expression into the interpolated string. The key point to note here is that the expression is evaluated before being included in the result string.
+
+Complete [learning activity #7: String Interpolation]() to demonstrate your understanding of the `$` operator and string interpolation.
+
+
 
 
 
