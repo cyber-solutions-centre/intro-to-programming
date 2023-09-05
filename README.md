@@ -33,7 +33,7 @@ We can't give computers instructions like we would give a human instructions. Na
 
 At the lowest level, computers operate on binary code (a sequence of 0s and 1s), which is unambiguous. However, writing programs in binary code would take a long time and simply wouldn't be practical. So we use programming languages that are easier for humans to write and that can be transformed into binary code to give instructions to computers instead.
 
-There are lots of different programming languages, but don't worry! Programming languages have lots in common and learning a new programming language isn't comprable to learning a new natural language (E.g., Spanish).
+There are lots of different programming languages, but don't worry! Programming languages have lots in common and learning a new programming language isn't comparable to learning a new natural language (E.g., Spanish).
 
 In this course, we are going to focus on the C# programming language. C# is a very versatile language and can be used to develop web, mobile, and Internet of Things applications as well as games.
 
