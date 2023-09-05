@@ -4,7 +4,7 @@
 
 At the end of the session you will be able to:
 
--	Explain the function and utility of variables, conditional statements, and loops.
+-	Explain the function and utility of data types, variables, and operators.
 -	Write a program using C# (a popular programming language).
 
 ## What is Programming?
