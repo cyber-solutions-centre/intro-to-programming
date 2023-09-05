@@ -229,7 +229,7 @@ Complete [learning activity #6: Logical Operators]() to build and demonstrate yo
 
 ### String interpolation
 
-The `$` operator enables string interpolation, which is simply a way of incorporating values from variables of expressions into a `string`. Take a look at this example:
+The `$` operator enables string interpolation, which is simply a way of incorporating values from variables or expressions into a `string`. Take a look at this example:
 
 ```c#
 double a = 3;
