@@ -214,7 +214,7 @@ The `==` and `!=` operators can also be used to compare numeric types, but more 
 
 ### Logical operators
 
-Logical operators can be applied to the `bool` type and expressions that result a `bool` type (E.g., `x < y`).
+Logical operators can be applied to the `bool` type and expressions that result in a `bool` type (E.g., `x < y`).
 
 The main logical operators are as follows:
 
