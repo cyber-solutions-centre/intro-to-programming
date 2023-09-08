@@ -247,7 +247,7 @@ Breaking this down:
 - `{b}`: Adds the value of a variable, `b`, into the interpolated string.
 - `{0.5 * a * b}`: Adds the result of the expression into the interpolated string. The key point to note here is that the expression is evaluated before being included in the result string.
 
-Complete [learning activity #6: String Interpolation]() to demonstrate your understanding of the `$` operator and string interpolation.
+Complete [learning activity #7: String Interpolation]() to demonstrate your understanding of the `$` operator and string interpolation.
 
 ### Equality operators
 
@@ -257,11 +257,11 @@ The `==` operator checks for equality, returning `true` when the values to its l
 
 The `!=` operator checks for a lack of equality, returning `true` when the values to its left and right are not equivalent (E.g., `3 != 4`), and returing `false` otherwise (E.g., 3 != 3).
 
-Complete [learning activity #7: Equality Operators]() to demonstrate your understanding of these new operators see how they work when applied to different types.
+Complete [learning activity #8: Equality Operators]() to demonstrate your understanding of these new operators see how they work when applied to different types.
 
 ## Finishing this session
 
-Understanding the concepts covered in this session is vital as we will be building on them next week and making more advanced programs. To finish this session, take a look at [learning activity #8: The General Store].
+Understanding the concepts covered in this session is vital as we will be building on them next week and making more advanced programs. To finish this session, take a look at [learning activity #9: The General Store].
 
 Also, make sure to review the additional resources on the VLE as a part of your independent learning. 
 
