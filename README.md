@@ -259,6 +259,12 @@ The `!=` operator checks for a lack of equality, returning `true` when the value
 
 Complete [learning activity #7: Equality Operators]() to demonstrate your understanding of these new operators see how they work when applied to different types.
 
+## Finishing this session
+
+Understanding the concepts covered in this session is vital as we will be building on them next week and making more advanced programs. To finish this session, take a look at [learning activity #8: The General Store].
+
+Also, make sure to review the additional resources on the VLE as a part of your independent learning. 
+
 
 
 
