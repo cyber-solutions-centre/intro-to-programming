@@ -261,10 +261,9 @@ Complete [learning activity #8: Equality Operators]() to demonstrate your unders
 
 ## Finishing this session
 
-Understanding the concepts covered in this session is vital as we will be building on them next week and making more advanced programs. To finish this session, take a look at [learning activity #9: The General Store].
+Understanding the concepts covered in this session is vital as we will be building on them next week and making more advanced programs. To finish this session, take a look at [learning activity #9: The General Store](https://github.com/cyber-solutions-centre/intro-to-programming/blob/main/activities/9-the-general-store/README.md).
 
-Also, make sure to review the additional resources on the VLE as a part of your independent learning. 
-
+Also, if you haven't already, **make sure to commit and push your changes before finishing the session**. Ask the facilitator if you are unsure how to do this.
 
 
 
